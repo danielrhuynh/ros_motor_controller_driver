@@ -6,3 +6,8 @@ A motor controller driver created in cpp, and wrapped using ROS:Noetic!
 
 ## Background:
 * I wanted to become more familiar with ROS, so I decided to make a ROS wrapper for a cpp motor controller driver!
+
+## Implementation:
+* Here are some addition things I included for simplicity / coolness:
+* I added a launch file such that parameters would not have to be repetitively initilized
+* I added an Asynchronous Spinner to avoid delayed callback issues
