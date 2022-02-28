@@ -20,6 +20,8 @@ class MotorDriverROSWrapper
 
         // Subscriber for setting motor speed
         ros::Subscriber speed_command_subscriber;
+    
+        // Servie for stopping the motor
         ros::ServiceServer stop_motor_server;
 
         // Defining publishers, timers and frequencies for 'speed', and 'status'
