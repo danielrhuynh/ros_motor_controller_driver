@@ -11,8 +11,9 @@ A motor controller driver created in cpp, and wrapped using ROS:Noetic!
 Here are some addition things I included for simplicity / coolness:
 * I added a launch file such that parameters would not have to be repetitively initilized
 * I added an Asynchronous Spinner to avoid delayed callback issues
-* ### Access the docker container of ros:noetic:
-* 'docker exec -it festive_shirley bin/bash'
+
+### Access the docker container of ros:noetic:
+* 'docker exec -it 'container_name' bin/bash'
 
 ### We want to cd into our catkin_ws and source our setup file:
 * This is so that ros can find our package and we can run ros and catkin commands
